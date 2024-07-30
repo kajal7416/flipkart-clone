@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header3{
+    /* background-color: #003b56; */
+    background-color: rgb(242, 39, 4);
+    display: flex;
+    color: white;
+    padding: 0 60px;
+    align-items: center;
+    height: 70px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    font-size: 18px;
+    align-items: center;
+}
+.bar2{
+    display: none;
+}
+.logo1{
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+.logo1 img{
+    height: 60%;
+    width: 20%;
+}
+.about:hover{
+    color: rgba(255,152,0,0.90);
+}
+.ethics:hover{
+    color: rgba(255,152,0,0.90);
+}
+.culture:hover{
+    color: rgba(255,152,0,0.90);
+}
+.technology:hover{
+    color: rgba(255,152,0,0.90);
+}
+.sustainbility:hover{
+    color: rgba(255,152,0,0.90);
+}
+.stories:hover{
+    color: rgba(255,152,0,0.90);
+}
+
+
+/* 320px to 480 */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .header-content{
+        display: none;
+    }
+    .header3{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+
+    }
+    .logo1{
+        width: 30%;
+    }    
+    .bar2{
+        display: block;
+    }
+    .logo1 img{
+        width: 50%;
+    }
+     
+       
+ } 
+ @media only screen and (min-width: 480px) and (max-width: 567px){
+    .header-content{
+        display: none;
+    }
+    .header3{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+
+    }
+    .bar2{
+        display: block;
+        font-size: 20px;
+    }
+    .logo1{
+        width: 50%;
+    }
+    .logo1 img{
+        width: 60%;
+    }
+ }
+ @media only screen and (min-width: 568px) and (max-width: 767px){
+    .header-content{
+        display: none;
+    }
+    .header3{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+
+    }
+    .logo1{
+        width: 50%;
+    }
+    .logo1 img{
+        width: 50%;
+    }
+    .bar2{
+        display: block;
+        font-size: 20px;
+    }
+
+ }
+  
+ @media only screen and (min-width: 768px) and (max-width: 1024px){ 
+   
+    .header-content{
+        display: none;
+    }
+    .header3{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 50px;
+
+    }
+    .logo1{
+        width: 50%;
+    } 
+    .logo1 img{
+        width: 40%;
+    }
+    .bar2{
+        display: block;
+        font-size: 20px;
+    }
+ }
+
+ @media only screen and (min-width: 1025px) and (max-width: 1200px){ 
+   
+    .header-content{
+        display: none;
+    }
+    .header3{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .logo1{
+        width: 30%;
+        padding: 10px 0;
+    }
+    .logo1 img{
+        height: 100%;
+        width: 100%;
+    }
+    .header-content{
+        margin-left: 0;
+        justify-content: right !important;
+    }
+ }
+ @media only screen and (min-width: 1201px) and (max-width: 1400px){ 
+   
+    .header-content{
+        display: none;
+    }
+    .header3{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .logo1{
+        width: 30%;
+        padding: 10px 0;
+    }
+    .logo1 img{
+        height: 100%;
+        width: 100%;
+    }
+    .header-content{
+        margin-left: 0;
+        justify-content: right !important;
+    }
+ }
+ 
+ 

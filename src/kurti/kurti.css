@@ -1,0 +1,72 @@
+
+.categories-up{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    font-weight: 600;
+    box-shadow: 0 0 3px 5px gainsboro;
+}
+.left-right{
+    display: flex;
+    padding: 30px 10px;
+}
+.leftside{
+    width: 17%;
+    border: 1px solid gainsboro;
+    padding: 20px 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.rightside{
+    width: 80%;
+}
+.card-img, .card-img-top{
+    /* object-fit: cover; */
+}
+.card-title{
+    font-size: medium;
+}
+.button-cart{
+    background-color: rgba(255,152,0,0.90);
+    height: 40px;
+    width: 70%;
+    border: none;
+}
+.button-cart:hover{
+    background-color: #003b56;
+}
+.filter0{
+}
+.filter0 h2{
+    font-size: 20px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 10px;
+    
+}
+.filter{
+    border-bottom: 1px solid gainsboro;
+}
+.filter h5{
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+.filter p{
+    font-size: 13px;
+}
+.search2{
+    padding-left: 6px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    margin: 5px 0;
+}
+.brand h5{
+    margin: 10px 0;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+
+}
+.brand i{
+    font-size: 10px;
+}

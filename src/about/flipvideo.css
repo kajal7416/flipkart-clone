@@ -1,0 +1,38 @@
+.hearosection1{
+    display: flex;
+    margin: 40px 20px;
+    border-bottom: 1px solid #003b56;
+    padding: 30px 0;
+
+}
+.video{
+    width: 70%;
+
+}
+iframe{
+    height: 700px;
+    width: 100%;
+}
+.news{
+    width: 30%;
+    text-align: left;
+    padding: 0px 20px;
+}
+.news1{
+    
+    border-bottom: 1px solid gainsboro;
+    margin: 20px 0;
+}
+
+.news h4{
+    color: red;
+}
+
+.news h5{
+    font-size: 15px;
+    line-height: 25px;
+}
+.news p{
+    font-size: 15px;
+    color: gray;
+}

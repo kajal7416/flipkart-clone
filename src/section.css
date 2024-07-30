@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    display: flex;
+    margin: 20px 10px;
+}
+.section h1{
+    font-size: 35px;
+    font-family: sans-serif;
+    padding: 20px 20px;
+    text-align: left;
+}
+.section span{
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+    margin-left: 1055px;
+
+
+}
+.product1{
+    margin: 0 10px;
+    border: 1px solid black;
+    padding: 10px 10px;
+    width: 100%;
+}
+.product-img1 img{
+    height: 200px;
+    width: 100%;
+}
+.product-img1 img:hover{
+    transform: scale(0.9)
+}
+
+.product-content p{
+    font-size: 17px;
+    /* font-weight: 600; */
+    margin: 20px 0;
+}
+.product-content h4{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: -15px;
+
+}
+
+
+
+/* meadiaquery  start*/
+
+/* 320px to 480 */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .section h1{
+        font-size: 20px;
+    }
+    .section span{
+        margin: auto auto;
+        padding: 5px 10px;
+    }
+    .product1{
+        width: 44%;
+        margin: 10px auto;
+        padding: 0px 0px;
+
+    }
+    .product{
+        display: flex;
+        overflow-x: scroll;
+        justify-content: normal;
+        flex-direction: row;
+    }
+    .product-img{
+        width: 100px;
+        height: 100px;
+    }
+    
+      
+  } 
+  @media only screen and (min-width: 480px) and (max-width: 567px){
+    .section h1{
+        font-size: 20px;
+    }
+    .section span{
+        margin: auto auto;
+        padding: 5px 10px;
+    }
+    .product1{
+        width: 44%;
+        margin: 10px auto;
+        padding: 0px 0px;
+    }
+  
+  }
+  @media only screen and (min-width: 568px) and (max-width: 767px){
+    
+    .section h1{
+        font-size: 20px;
+    }
+    .section span{
+        margin: auto auto;
+        padding: 5px 10px;
+    }
+    .product1{
+        width: 44%;
+        margin: 10px auto;
+        padding: 0px 0px;
+    }
+  }
+   
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    .section h1{
+        font-size: 20px;
+    }
+    .section span{
+        margin: auto auto;
+        padding: 5px 10px;
+    }
+    .product1{
+        width: 44%;
+        margin: 10px auto;
+        padding: 0px 0px;
+    }
+      
+  }
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .section h1{
+        font-size: 20px;
+    }
+    .section span{
+        margin: auto auto;
+        padding: 5px 10px;
+    }
+    .product1{
+        width: 44%;
+        margin: 10px auto;
+        padding: 0px 0px;
+    }
+      
+      
+  
+  }
+  @media only screen and (min-width: 1201px) and (max-width: 1405px){
+    .section h1{
+        font-size: 20px;
+    }
+    .section span{
+        margin: auto auto;
+        padding: 5px 10px;
+    }
+    .product1{
+        width: 44%;
+        margin: 10px auto;
+        padding: 0px 0px;
+    }
+      
+  }
+  @media only screen and (min-width: 1406px) and (max-width: 1500px){
+    .section h1{
+        font-size: 20px;
+    }
+    .section span{
+        margin: auto auto;
+        padding: 5px 10px;
+    }
+    .product1{
+        width: 44%;
+        margin: 10px 10px;
+        padding: 0px 0px;
+    }
+      
+  }

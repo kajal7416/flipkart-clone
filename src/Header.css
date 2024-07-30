@@ -1,0 +1,1103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    
+
+}
+.header-section{
+    width: 100%; 
+}
+.header{
+    background-color: #003b56;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 5; 
+}
+.bar{
+  display: none;
+}
+.logo{
+    height: 72%;
+    width: 12%;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.search{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    background-color: gainsboro;
+    padding: 5px 0;
+    border-radius: 5px;
+
+}
+.search i{
+    color: black;
+    padding: 0 10px;
+}
+.search1{
+    width: 100%;
+    padding: 5px 0px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: none;
+}
+:focus-visible {
+    outline: none;
+}
+
+
+.become{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.login{
+    padding: 10px 20px;
+    position: relative;
+}
+.login:hover{
+    background-color: rgba(255,152,0,0.90);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.dropdown{
+    display: none;
+}
+.login:hover .dropdown{
+    display: block;
+    color: white;
+    background-color: #003b56;
+    position: absolute;
+    top: 50px;
+    padding: 20px 0px;
+    text-align: left;
+    z-index: 5;
+    width: 250px;
+    left: 0;
+    font-family: sans-serif;
+
+}
+.dropdown li{
+    font-size: 15px;
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.dropdown h4:hover{
+    color: rgba(255,152,0,0.90);
+
+}
+.user-item:hover{
+    color: rgba(255,152,0,0.90);
+}
+.dropdown i{
+    margin-right: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+.dropdown h4{
+    margin-left: 30px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+.dropdown span{
+    margin-right: 20px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 17px;
+}
+.cart:hover{
+    color: rgba(255,152,0,0.90);
+}
+.become:hover{
+    color: rgba(255,152,0,0.90);
+}
+.dot:hover{
+    color: rgba(255,152,0,0.90);
+}
+
+/* header2 */
+.header2{
+    display: flex;
+    color: black;
+    font-family: sans-serif;
+    margin: 40px 0px;
+}
+.div1{
+    background-color: aliceblue;
+    padding: 10px 0px;
+    margin: 0px 20px;
+    text-align: center;
+}
+.grocery,.phone,.fashion,.electronics,.furniture,.appliances,.travel,.toy,.wheelers{
+    width: 200px;
+
+}
+.grocery h4,.phone h4,.fashion h4,.electronics h4,.furniture h4,.appliances h4,.travel h4,.toy h4,.wheelers h4{
+    
+    padding: 0px 5px;
+    font-size: 15px;
+
+}
+
+/* fashion dropdown */
+.fashion{
+    position: relative;
+    font-size: 13px;
+}
+
+.fashion:hover{
+    color: rgba(255,152,0,0.90);
+}
+
+.dropdown1,.dropdown2{
+    display: none;
+}
+.fashion:hover .dropdown1{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    z-index: 4;
+}
+.box1{
+    background-color: #003b56;
+    color: white;
+    padding: 0 10px;
+    width: 200px;
+    position: absolute;
+    top: -10px;
+}
+.overlay,.overlay1{
+    display: flex;
+    position: relative;
+}
+.box2{
+    display: none;
+}
+.overlay:hover .box2{
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 200px;
+    background-color: #003b56;
+    top: -16px;
+    height: 250px;
+    border-left: 1px solid white;
+} 
+/* no */
+.overlay1:hover .box2{
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 200px;
+    background-color: #003b56;
+    top: -55px;
+    height: 250px;
+    border-left: 1px solid white;
+}
+/* no */
+.overlay2:hover .box2{
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 200px;
+    background-color: #003b56;
+    top: -0px;
+    height: 250px;
+    border-left: 1px solid white;
+}
+/* no */
+.overlay3:hover .box2{
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 200px;
+    background-color: #003b56;
+    top: -0px;
+    height: 250px;
+    border-left: 1px solid white;
+}
+/* no */
+.overlay4:hover .box2{
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 200px;
+    background-color: #003b56;
+    top: -0px;
+    height: 250px;
+    border-left: 1px solid white;
+}
+/* no */
+
+
+.box1 li,.box2 li{
+    list-style-type: none;
+    text-align: left;
+    margin: 15px 0;
+}
+/*  Electronics */
+.electronics{
+    position: relative;
+    font-size: 13px;
+}
+.electronics:hover .dropdown2{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    left: 100%;
+}
+.electronics:hover{
+    color: rgba(255,152,0,0.90);
+}
+.box3{
+    background-color: #003b56;
+    color: white;
+    width: 200px;
+}
+.overlay1{
+    display: flex;
+    position: relative;
+}
+.box4{
+    display: none;
+}
+
+.overlay1:hover .box4{
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 250px;
+    background-color: #003b56;
+    top: -15px;
+    border-left: 1px solid white;
+}
+.overlay2:hover .box4{
+    display: block;
+    position: absolute;
+    left: 100%;
+    width: 250px;
+    background-color: #003b56;
+    top: 0px;
+    border-left: 1px solid white;
+}
+.box1 ul,.box2 ul,.box3 ul,.box4 ul{
+    padding-left: 20px;
+}
+.box3 li,.box4 li{
+    list-style-type: none;
+    text-align: left;
+    margin: 15px 0;
+}   
+/* furniture */
+.furniture{
+    position: relative;
+    font-size: 13px;
+}
+.furniture:hover .dropdown2{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    left: 100%;
+}
+.furniture:hover{
+    color: rgba(255,152,0,0.90);
+}
+/* toy */
+
+/* furniture */
+.toy{
+    position: relative;
+    font-size: 13px;
+}
+.toy:hover .dropdown2{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    left: 100%;
+}
+.toy:hover{
+    color: rgba(255,152,0,0.90);
+}
+/* wheelers */
+.wheelers{
+    position: relative;
+    font-size: 13px;
+}
+.wheelers:hover .dropdown2{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    z-index: 4;
+    left: 100%;
+}
+.wheelers:hover{
+    color: rgba(255,152,0,0.90);
+}
+
+/* div2 */
+.div2{
+    width: 100%;
+    margin: 0px 20px;
+}
+.carousel{
+    height: 500px;
+    position: relative;
+    margin: 0 0 !important;
+}
+.carousel-inner{
+    height: 100%;
+}
+.carousel-item{
+    height: 100%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #a49393 !important;
+    color: #003b56;
+}
+.carousel-control-next, .carousel-control-prev{
+    color: #003b56 !important;
+}
+
+/* caption2 */
+.caption2{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+
+
+.caption2 h2{
+    color: white;
+    font-size: 50px;
+}
+.caption2 h1{
+    font-family: sans-serif;
+    font-size: 60px;
+}
+.caption2 button{
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.caption2 p{
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    color: white;
+}
+/* caption3 */
+/* caption4 */
+.caption3{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+
+}
+.caption3 h1{
+    font-family: "Dancing";
+    color: green;
+    background-color: antiquewhite;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.caption3 p{
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.caption3 button{
+    background-color: rgba(255,152,0,0.90);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* caption4 */
+.caption4{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+
+}
+.caption4 h1{
+    padding: 20px 0;
+    font-family: "Dancing Script", cursive;
+    color: red;
+    font-size: 70px;
+}
+.caption4 p{
+    padding: 20px 0;
+    font-family: sans-serif;
+    color: black;
+    font-size: 30px;
+}
+.caption4 button{
+    background-color: #89095c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* product */
+.product{
+    column-count: 5;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 40px 20px;
+    background-color:bisque;
+    gap: 20px;
+}
+.product-img{
+    height: 230px;
+    width: 100%;
+}
+.product-img img{
+    height: 100%;
+    width: 100%;
+}
+.product-content h1{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.product-content h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+    color: green;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+    overflow: hidden;
+}
+
+.product-product1 h3{
+  text-align: center;
+}
+
+
+
+
+/* meadiaquery  start*/
+
+/* 320px to 480 */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  .search,.become,.login,.dot{
+    display: none;
+  }  
+  .header{
+    padding: 0 10px;
+    font-size: 14px;
+    height: 100%;
+  }
+  /* bar start */
+  .bar{
+    display: block;
+    padding: 0 20px;
+  }
+  .navigation1.active{
+    display: block;
+    position: absolute;
+    top: 100%;
+    background: white;
+    color: black;
+    width: 100%;
+    left: 0;
+    padding: 10px 30px;
+  }
+  .navigation1{
+    display: none;
+  }
+  /* menu */
+  .loginsignup{
+    background-color: #003b56;
+    color: white;
+    padding: 5px 5px;
+  }
+  p{
+    margin-bottom: 0;
+  }
+  .zone1,.plus-zone,.all-category,.more-flipkart,.offer1,.sell,.order1,.coupons,.carts,.wishlist,.account1,.notification,.notification{
+    display: flex;
+    gap: 0;
+    margin-top: 10px;
+    padding: 5px 5px;
+  }
+  .logo{
+    width: 100%;
+    text-align: left;
+    margin: 0 5px;
+  }
+  .logo img{
+    width: 112px;
+  }
+  .login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  .login i{
+    margin: 0 10px;
+  } 
+  .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart i{
+    padding-right: 10px;
+  }
+  .header2{
+    flex-wrap: wrap;
+    margin: 0 0;
+  }
+  .div1{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: normal;
+    flex-direction: row;
+    margin: 10px 0;
+  }
+  .grocery, .phone, .fashion, .electronics, .furniture, .appliances, .travel, .toy, .wheelers{
+    width: auto;
+    margin: 0 10px;
+  }
+  .grocery h4, .phone h4, .fashion h4, .electronics h4, .furniture h4, .appliances h4, .travel h4, .toy h4, .wheelers h4{
+    width: 120px;
+  }
+  .div2{
+    width: 100%;
+    margin: 0 0;
+    padding: 0 20px;
+  }
+  .carousel{
+    height: 200px;
+  }
+  .caption3,.caption4{
+    top: 10%;
+    left: 15%;
+  }
+  .caption2{
+    top: 10%;
+    left: 24%;
+  }
+  .caption4 p{
+    padding: auto 30px;
+  }
+  .caption2 h1,.caption2 h2,.caption4 p{
+    font-size: 20px;
+    margin: 0;
+  }
+  .caption4 h1{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  .caption2 p,.caption4 button{
+    font-size: 17px;
+  }
+  .caption3 h1{
+    width: 183px;
+  }
+  .carousel-control-next{
+    right: 15px;
+  }
+  
+  .product-content h2{
+    font-size: 15px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+    overflow: hidden;
+  }
+  .product-content h1{
+    font-size: 14px;
+    text-align: left;
+  }
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+    display: none;
+  }
+  .product-content h2{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100px;
+    overflow: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+  }
+  .product-product1 h3{
+    text-align: center;
+  }
+
+    
+} 
+@media only screen and (min-width: 480px) and (max-width: 567px){
+  .search,.become,.login,.dot{
+    display: none;
+  }  
+  .header{
+    padding: 0 20px;
+    font-size: 15px;
+    height: 100%;
+  }
+  /* bar start */
+  .bar{
+    display: block;
+    margin: 0 20px;
+  }
+  .navigation1.active{
+    display: block;
+  }
+  .navigation1{
+    display: none;
+  }
+  .logo{
+    width: 100%;
+    text-align: left;
+    margin: 0 20px;
+  }
+  .logo img{
+    width: 112px;
+  }
+  .login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  .login i{
+    margin: 0 10px;
+  } 
+  .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart i{
+    padding-right: 10px;
+  }
+      
+      .header2{
+        flex-wrap: wrap;
+        margin: 0 0;
+      }
+      .div1{
+        width: 100%;
+        display: flex;
+        overflow-x: scroll;
+        justify-content: normal;
+        flex-direction: row;
+        margin: 10px 0;
+      }
+      .grocery, .phone, .fashion, .electronics, .furniture, .appliances, .travel, .toy, .wheelers{
+        width: auto;
+        margin: 0 10px;
+      }
+      .div2{
+        width: 100%;
+        margin: 0 0;
+        padding: 0 20px;
+      }
+      .product{
+        display: flex;
+        overflow-x: scroll;
+        justify-content: start;
+        gap: 10px;
+      }
+      .product::-webkit-scrollbar {
+        display: none;
+      }
+      .product-img{
+        height: 150px;
+        width: 150px;
+      }
+      .carousel{
+        height: 250px;
+      }
+      .caption3,.caption4{
+        top: 10%;
+        left: 15%;
+      }
+      .caption2{
+        top: 10%;
+        left: 24%;
+      }
+      .caption4 p{
+        padding: auto 30px;
+      }
+      .caption2 h1,.caption2 h2,.caption4 p{
+        font-size: 20px;
+        margin: 0;
+      }
+      .caption4 h1{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+      }
+      .caption2 p,.caption4 button{
+        font-size: 17px;
+      }
+      .caption3 h1{
+        width: 183px;
+      }
+      .carousel-control-next{
+        right: 15px;
+      }
+      
+      .product-content{
+        margin: auto 20px;
+      }
+      .product-content h2{
+        font-size: 15px;
+        text-align: left;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100px;
+        overflow: hidden;
+      }
+      .product-content h1{
+        font-size: 14px;
+        text-align: left;
+      }
+      [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+        display: none;
+      }
+      ::-webkit-scrollbar {
+        /* width: 10px; */
+        display: none;
+      }
+
+}
+@media only screen and (min-width: 568px) and (max-width: 767px){
+  .search,.become,.login,.dot{
+    display: none;
+  }  
+  .header{
+    padding: 0 20px;
+    font-size: 15px;
+    height: 100%;
+  }
+  /* bar start */
+  .bar{
+    display: block;
+    margin: 0 20px;
+  }
+  .navigation1.active{
+    display: block;
+  }
+  .navigation1{
+    display: none;
+  }
+  /* menu */
+  .loginsignup{
+    background-color: #003b56;
+    color: white;
+    padding: 5px 5px;
+  }
+  p{
+    margin-bottom: 0;
+  }
+  .zone1,.plus-zone,.all-category,.more-flipkart,.offer1,.sell,.order1,.coupons,.carts,.wishlist,.account1,.notification,.notification{
+    display: flex;
+    gap: 0;
+    margin-top: 10px;
+    padding: 5px 5px;
+  }
+  .logo{
+    width: 100%;
+    text-align: left;
+    margin: 0 20px;
+  }
+  .logo img{
+    width: 112px;
+  }
+  .login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  .login i{
+    margin: 0 10px;
+  } 
+  .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart i{
+    padding-right: 10px;
+  }
+      .header2{
+        flex-wrap: wrap;
+        margin: 0 0;
+      }
+      .div1{
+        width: 100%;
+        display: flex;
+        overflow-x: scroll;
+        justify-content: normal;
+        flex-direction: row;
+        margin: 10px 0;
+      }
+      .grocery, .phone, .fashion, .electronics, .furniture, .appliances, .travel, .toy, .wheelers{
+        width: auto;
+        margin: 0 10px;
+      }
+      .grocery h4, .phone h4, .fashion h4, .electronics h4, .furniture h4, .appliances h4, .travel h4, .toy h4, .wheelers h4{
+        width: 120px;
+      }
+      .div2{
+        width: 100%;
+        margin: 0 0;
+        padding: 0 10px;
+      }
+      .carousel{
+        height: 250px;
+      }
+      .caption3,.caption4{
+        top: 10%;
+        left: 15%;
+      }
+      .caption2{
+        top: 10%;
+        left: 24%;
+      }
+      .caption4 p{
+        padding: auto 30px;
+      }
+      .caption2 h1,.caption2 h2,.caption4 p{
+        font-size: 20px;
+        margin: 0;
+      }
+      .caption4 h1{
+        font-size: 40px;
+        margin: 0;
+        padding: 0;
+      }
+      .caption2 p,.caption4 button{
+        font-size: 17px;
+      }
+      .caption3 h1{
+        width: 183px;
+      }
+      .carousel-control-next{
+        right: 15px;
+      }
+      .product-img{
+        height: 100px;
+        width: 100px;
+      }
+      .product-content h2{
+        font-size: 18px !important;
+      }
+      .product-content h1{
+        font-size: 14px;
+      }
+      
+      [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
+        display: none;
+      } 
+      ::-webkit-scrollbar {
+        width: 10px;
+        display: none;
+      }
+}
+ 
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .grocery, .phone, .fashion, .electronics, .furniture, .appliances, .travel, .toy, .wheelers{
+    width: 100%;
+  }
+  /* bar start */
+  .bar{
+    display: block;
+    margin: 0 20px;
+  }
+  .navigation1.active{
+    display: block;
+  }
+  .navigation1{
+    display: none;
+  }
+  /* menu */
+  .loginsignup{
+    background-color: #003b56;
+    color: white;
+    padding: 5px 5px;
+  }
+  p{
+    margin-bottom: 0;
+  }
+  .zone1,.plus-zone,.all-category,.more-flipkart,.offer1,.sell,.order1,.coupons,.carts,.wishlist,.account1,.notification,.notification{
+    display: flex;
+    gap: 0;
+    margin-top: 10px;
+    padding: 5px 5px;
+  }
+  .search,.become,.login,.dot{
+    display: none;
+  }  
+  .header{
+    padding: 0 20px;
+    font-size: 15px;
+    height: 100%;
+  }
+  .logo{
+    width: 100%;
+    text-align: left;
+    margin: 0 20px;
+  }
+  .logo img{
+    width: 112px;
+  }
+  .login{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+  }
+  .login i{
+    margin: 0 10px;
+  } 
+  .cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart i{
+    padding-right: 10px;
+  }
+  .div1{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: normal;
+    flex-direction: row;
+    margin: 10px 0;
+    padding: 20px 20px;
+  }
+  
+  .grocery h4, .phone h4, .fashion h4, .electronics h4, .furniture h4, .appliances h4, .travel h4, .toy h4, .wheelers h4{
+    width: 120px;
+  }
+  .product{
+    overflow-x: scroll;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+  }
+  .product-img{
+    height: 150px;
+    width: 150px;
+  }
+  .header2{
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  .div2{
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+  }
+  .carousel{
+    height: 400px;
+  }
+  .product-content h2{
+    font-size: 18px;
+    width: 120px;
+    text-align: left;
+  }
+  .product-content h1{
+    font-size: 15px;
+    text-align: left;
+  }
+  
+    
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+  .logo{
+    width: 19%;
+  }
+  .product-img{
+    height: 145px;
+    width: 100%;
+  }
+  .header{
+    padding: 0 20px;
+  }
+  .header2{
+    flex-wrap: wrap;
+    margin: 0 0;
+  }
+  .div1{
+    width: 100%;
+    column-count: 9;
+    margin: 20px 0;
+  }
+  .div2{
+    width: 100%;
+    margin: 0 0;
+    padding: 0 10px;
+  }
+  .product-content h2{
+    font-size: 18px;
+    width: 120px;
+  }
+  .product-content h1{
+    font-size: 15px;
+    text-align: left;
+  }
+  .product{
+    padding: 40px 20px;
+    margin: 50px 0px;
+  }
+    
+    
+
+}
+@media only screen and (min-width: 1201px) and (max-width: 1405px){
+    
+}

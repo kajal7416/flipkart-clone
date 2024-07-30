@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}*
+footer{
+    background-color: #003b56;
+    padding: 0 50px;
+    color: white;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    padding: 50px 0;
+    border-bottom: 1px solid white;
+}
+.about1,.company,.help,.policy,.mail,.registred{
+    text-align: left;
+    width: 16.66%;
+}
+.about1 h6,.company h6,.help h6,.policy h6,.mail h6,.registred h6{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.about1 li,.company li,.help li,.policy li,.mail li,.registred li{
+    list-style-type: none;
+    line-height: 30px;
+}
+.contact:hover{
+    color: rgba(255,152,0,0.90);
+    text-decoration: underline;
+}
+.social{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+.facebook:hover i{
+    color: rgba(255,152,0,0.90);
+    transform: scale(1.2);
+
+}
+.registred span{
+    color: blue;
+}
+
+/* footer2 */
+.footer2{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+}
+.seller,.advertise,.cards,.help-center,.strt-date{
+    width: 13%;
+    font-family: sans-serif;
+}
+.seller span,.advertise i,.cards span,.help-center span,.strt-date span{
+    color: rgba(255,152,0,0.90);
+    margin-right: 5px;
+}
+.seller:hover{
+    color: rgba(255,152,0,0.90);
+}
+.advertise:hover{
+    color: rgba(255,152,0,0.90);
+}
+.cards:hover{
+    color: rgba(255,152,0,0.90);
+}
+.help-center:hover{
+    color: rgba(255,152,0,0.90);
+}
+.strt-date:hover{
+    color: rgba(255,152,0,0.90);
+}
+.pay{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+.pay img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* responsive */
+
+/* 320px to 480 */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    footer{
+        padding: 0 20px;
+    }
+    .footer1{
+        flex-wrap: wrap;
+    }
+    .about1, .company, .help, .policy, .mail, .registred{
+        width: 100%;
+        margin: 30px 0;
+    }
+    .footer2{
+        flex-wrap: wrap;
+    }
+      
+    .seller, .advertise, .cards, .help-center, .strt-date{
+        width: 100%;
+        font-size: 15px;
+    }
+    .pay{
+        width: 50%;
+        padding: 20px 0;
+    }
+  } 
+  @media only screen and (min-width: 480px) and (max-width: 567px){
+    footer{
+        padding: 0 20px;
+    }
+    .footer1{
+        flex-wrap: wrap;
+    }
+    .about1, .company, .help, .policy, .mail, .registred{
+        width: 50%;
+        margin: 30px 0;
+    }
+    .footer2{
+        flex-wrap: wrap;
+    }
+      
+    .seller, .advertise, .cards, .help-center, .strt-date{
+        width: 33%;
+    }
+  
+  }
+  @media only screen and (min-width: 568px) and (max-width: 767px){
+    footer{
+        padding: 0 20px;
+    }
+    .footer1{
+        flex-wrap: wrap;
+    }
+    .about1, .company, .help, .policy, .mail, .registred{
+        width: 35%;
+        margin: 30px 0;
+    }
+    .footer2{
+        flex-wrap: wrap;
+    }
+      
+    .seller, .advertise, .cards, .help-center, .strt-date{
+        width: 33%;
+    }
+  }
+   
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    footer{
+        padding: 0 20px;
+    }
+    .footer1{
+        flex-wrap: wrap;
+    }
+    .about1, .company, .help, .policy, .mail, .registred{
+        width: 30%;
+        margin: 30px 0;
+    }
+    .footer2{
+        flex-wrap: wrap;
+    }
+      
+    .seller, .advertise, .cards, .help-center, .strt-date{
+        width: 33%;
+    }
+      
+  }
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1200px){
+    footer{
+        padding: 0 20px;
+    }
+    .about1, .company, .help, .policy, .mail, .registred{
+        width: 16.77%;
+        margin: 30px 0;
+    }
+    .footer2{
+        flex-wrap: wrap;
+    }
+      
+    .seller, .advertise, .cards, .help-center, .strt-date{
+        width: 33%;
+    }
+  
+  }
+  @media only screen and (min-width: 1201px) and (max-width: 1405px){
+      
+  }

@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.herosection-img{
+    margin: 30px 0;
+}
+.herosection-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+.herosection-img1{
+    margin: 20px 0;
+}
+.herosection-img1 img{
+    width: 100%;
+
+}
+.herosection-content{
+    display: flex;
+    margin: 40px 80px;
+    text-align: left;
+}
+.sustainbility-content{
+    width: 70%;
+}
+.sustainbility-content p{
+    line-height: 30px;
+    padding: 30px 0;
+    font-size: 20px;
+}
+.timeline{
+    margin: 40px 0;
+}
+.timeline img{
+    /* width: 100%; */
+}
+.future{
+    background-image: url('../image/background6.svg');
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+.slide-slide{
+    margin: 0px 250px !important;
+    background-color: white;
+    padding: 60px 0;
+    margin-top: -50px !important;
+}
+.item1-nm{
+    display: flex;
+}
+.item1-img12{
+    height: 350px;
+    width: 100%;
+}
+.item1-content h2{
+    text-align: left;
+    padding: 30px 50px;
+}
+.read{
+    background-color: rgb(8, 137, 236);
+    padding: 10px 20px;
+    width: 160px;
+    margin: 0 50px;
+    color: white;
+    font-weight: 600;
+
+}
+.ky1{
+    left: 5%;
+    top: 70%;
+    height: 60px;
+    width: 60px;
+}
+.ky2{
+    left: 12%;
+    top: 70%;
+    height: 60px;
+    width: 60px;
+}
+.ky-ky,.ky-ky1{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: gray !important;
+    box-shadow: 0 0 2px 5px gainsboro;
+
+}
+.ky-ky:hover{
+    background-color: gray !important;
+}
+.ky-ky1:hover{
+    background-color: gray !important;
+}
+
+
+  
+/* 320px to 480 */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .herosection-content{
+        margin: 0 20px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        
+    } 
+    .sustainbility-content{
+
+        width: 100%;
+    } 
+    .sustainbility-img{
+        width: 100%;
+    }  
+    .sustainbility-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .timeline img{
+        height: 100%;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .future{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+    }
+    .slide-slide{
+        padding: 0 0;
+        margin-top: -15px !important;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        height: 500px;
+    }
+    .item1-nm{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .item1-content{
+        width: 100%;
+        height: 100%;
+    }
+    .item1-img12{
+        width: 100%;
+        height: 100%;
+    }
+       
+ } 
+ @media only screen and (min-width: 480px) and (max-width: 567px){
+    .herosection-content{
+        margin: 0 20px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        
+    } 
+    .sustainbility-content{
+
+        width: 100%;
+    } 
+    .sustainbility-img{
+        width: 100%;
+    }  
+    .sustainbility-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .timeline img{
+        height: 100%;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .future{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+    }
+    .slide-slide{
+        padding: 0 0;
+        margin-top: -15px !important;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
+        height: 500px;
+    }
+    .item1-nm{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .item1-content{
+        width: 100%;
+        height: 100%;
+    }
+    .item1-img12{
+        width: 100%;
+        height: 100%;
+    } 
+       
+ }
+ @media only screen and (min-width: 568px) and (max-width: 767px){
+    .herosection-content{
+        margin: 0 50px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        
+    } 
+    .sustainbility-content{
+
+        width: 100%;
+    } 
+    .sustainbility-img{
+        width: 100%;
+    }  
+    .sustainbility-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .timeline{
+        margin: 0 50px;
+    }
+    .timeline img{
+        height: 100%;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .future{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+    }
+    .slide-slide{
+        padding: 20px 0;
+        margin-top: -15px !important;
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+        height: 100%;
+    }
+    .item1-nm{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .item1-content{
+        width: 100%;
+        height: 100%;
+    }
+    .item1-img12{
+        width: 100%;
+        height: 100%;
+    }
+ 
+ }
+  
+ @media only screen and (min-width: 768px) and (max-width: 1024px){ 
+    .slide-slide{
+        margin: 0 50px !important;
+        height: 400px;
+      }
+      .sustainbility-img{
+        text-align: center;
+      }
+      .timeline img{
+        padding: 0 50px;
+        height: 100%;
+        width: 100%;
+      }
+      .slide-slide{
+        margin: 0 100px;
+
+      }
+      .item1-content h2{
+        padding: 10px 10px;
+        font-size: 20px;
+      }
+      .item1-content{
+        width: 50%;
+        margin: auto;
+      }
+      .item1-img12{
+        height: 100%;
+        width: 100%;
+        margin: auto 50px;
+      }
+
+ }
+ @media only screen and (min-width: 1025px) and (max-width: 1200px){ 
+    
+      .slide-slide{
+        margin: auto 150px !important;
+        height: 400px;
+      }
+      .item1-content h2{
+        padding: 10px 10px;
+        font-size: 20px;
+      }
+      .item1-content{
+        width: 70%;
+        margin: auto 50px;
+      }
+      .item1-img12{
+        height: 100%;
+        width: 100%;
+        margin: auto 50px;
+      }
+      .about, .ethics, .culture, .technology, .sustainbility, .stories{
+        margin: 0 20px;
+      }
+
+
+ }
+ @media only screen and (min-width: 1201px) and (max-width: 1401px){ 
+    
+    .slide-slide{
+        height: 400px;
+    }
+    .item1-content h2{
+      padding: 10px 10px;
+      font-size: 20px;
+    }
+    .item1-content{
+      width: 50%;
+      margin: auto 50px;
+    }
+    .item1-img12{
+      height: 100%;
+      width: 100%;
+      margin: auto 50px;
+    }
+    .about, .ethics, .culture, .technology, .sustainbility, .stories{
+      margin: 0 20px;
+    }
+    
+
+}
+ 
+

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section3{
+    margin: 0 10px;
+}
+.product-item{
+    display: flex;
+}
+.item1{
+    margin: 10px 10px;
+}
+.item1:hover img{
+    transform: scale(1.02);
+}
+.item1 img{
+    height: 100%;
+    width: 100%;
+    
+}
+.scroller{
+    margin: 0 0;
+}
+
+
+
+
+ /* meadiaquery  start*/
+
+/* 320px to 480 */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .product-item{
+        overflow-x: scroll;
+    }
+    .item1 img{
+        width: 184px;
+    }
+    .product-item::-webkit-scrollbar{
+        height: 2px;
+
+    }
+    .furniture-img{
+        gap: 5px;
+    }
+    .furniture-img img{
+        margin: 2px 0;
+    }
+    .section span{
+        margin-left: 0;
+        padding: 3px 9px;
+    }
+    .product-item{
+        overflow-x: scroll;
+    }
+    .item1 img{
+        width: 170px;
+    }
+    
+  
+      
+  } 
+  @media only screen and (min-width: 480px) and (max-width: 567px){
+    .section1{
+        flex-wrap: wrap;
+    }
+    .product1{
+        width: 45%;
+        margin: 10px 10px;
+    }
+    .product-img1 img{
+        height: 216px;
+    }
+    .product-item{
+        overflow-x: scroll;
+    }
+    .item1 img{
+        width: 300px;
+    }
+  
+  }
+  @media only screen and (min-width: 568px) and (max-width: 767px){
+    .section1{
+        flex-wrap: wrap;
+    }
+    .product1{
+        width: 29%;
+        margin: 10px 10px;
+    }  
+    .product-img1 img{
+        height: 161px;
+    }
+    .product-item{
+        overflow-x: scroll;
+    }
+    .item1 img{
+        width: 300px;
+    }
+  }
+
+   
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    .section1{
+        flex-wrap: wrap;
+    }
+    .product1{
+        width: 21.66%;
+        margin: 10px 10px;
+    }  
+    .product-img1 img{
+        height: 174px;
+    }
+      
+  }
+  
+  @media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .section1{
+        flex-wrap: wrap;
+    }
+    .product1{
+        width: 14.66%;
+        margin: 10px 10px;
+    }  
+    .product-img1 img{
+        height: 150px;
+    }
+      
+      
+  
+  }
+  @media only screen and (min-width: 1201px) and (max-width: 1405px){
+      
+  }

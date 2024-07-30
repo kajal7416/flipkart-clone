@@ -1,0 +1,9 @@
+.card-title{
+    /* height: 50% !important; */
+}
+.card-body{
+    height: 230px;
+}
+.card-img-top{
+    object-fit: scale-down;
+}

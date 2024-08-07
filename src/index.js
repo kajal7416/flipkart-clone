@@ -19,7 +19,7 @@ import Electric from './electronic/electronic';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/flipkart-clone",
     element: <Home />,
   },
   

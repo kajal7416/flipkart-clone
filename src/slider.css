@@ -13,6 +13,7 @@
 .carousel-item img{
 height: 100%;
 width: 100%;
+object-fit: cover;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: #ec0c9e;

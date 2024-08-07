@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css';
 import { useState } from 'react';
+import './navbar.css'
 
 export default function Navbar() {
     const [isActive, setIsActive] = useState('false');
@@ -55,15 +56,15 @@ export default function Navbar() {
                 <div class="dot"><i class="fa-solid fa-ellipsis-vertical"></i></div>
             </div>
             <div className='categories-up'>
-        <div>Electronics</div>
-        <div>TVs & Appliances</div>
-        <div>Men</div>
-        <div>Women</div>
-        <div>Baby & Kids</div>
-        <div>Home & Furniture</div>
-        <div>Sports</div>
-        <div>Flights</div>
-        <div>Offer Zone</div>
+        <div className='categories-up1'>Electronics</div>
+        <div className='categories-up1'>TVs&Appliances</div>
+        <div className='categories-up1'>Men</div>
+        <div className='categories-up1'>Women</div>
+        <div className='categories-up1'>Baby&Kids</div>
+        <div className='categories-up1'>Home&Furniture</div>
+        <div className='categories-up1'>Sports</div>
+        <div className='categories-up1'>Flights</div>
+        <div className='categories-up1'>OfferZone</div>
       </div>
       
     </div>

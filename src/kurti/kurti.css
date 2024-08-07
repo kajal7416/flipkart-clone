@@ -1,11 +1,5 @@
 
-.categories-up{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    font-weight: 600;
-    box-shadow: 0 0 3px 5px gainsboro;
-}
+
 .left-right{
     display: flex;
     padding: 30px 10px;
@@ -21,7 +15,7 @@
     width: 80%;
 }
 .card-img, .card-img-top{
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 .card-title{
     font-size: medium;
@@ -69,4 +63,13 @@
 }
 .brand i{
     font-size: 10px;
+}
+.discription{
+    width: 100%;
+    text-overflow: ellipsis;
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 580px){
+    
 }

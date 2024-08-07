@@ -28,7 +28,7 @@
 }
 .logo{
     height: 72%;
-    width: 12%;
+    width: auto;
 }
 .logo img{
     height: 100%;
@@ -482,10 +482,11 @@
 .product-img img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 .product-content h1{
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     margin: 10px 0;
     font-weight: 600;
 }
@@ -515,11 +516,12 @@
 @media only screen and (min-width: 320px) and (max-width: 480px){
   .search,.become,.login,.dot{
     display: none;
-  }  
-  .header{
-    padding: 0 10px;
-    font-size: 14px;
-    height: 100%;
+  } 
+  .fashion i,.electronics i,.furniture i{
+    display: none;
+  }
+  .fashion:hover .dropdown1,.electronics:hover .dropdown2,.furniture:hover .dropdown2{
+    display: none;
   }
   /* bar start */
   .bar{
@@ -664,13 +666,17 @@
   .product-product1 h3{
     text-align: center;
   }
-
-    
 } 
 @media only screen and (min-width: 480px) and (max-width: 567px){
   .search,.become,.login,.dot{
     display: none;
   }  
+  .fashion i,.electronics i,.furniture i{
+    display: none;
+  }
+  .fashion:hover .dropdown1,.electronics:hover .dropdown2,.furniture:hover .dropdown2{
+    display: none;
+  }
   .header{
     padding: 0 20px;
     font-size: 15px;
@@ -808,6 +814,12 @@
   .search,.become,.login,.dot{
     display: none;
   }  
+  .fashion i,.electronics i,.furniture i{
+    display: none;
+  }
+  .fashion:hover .dropdown1,.electronics:hover .dropdown2,.furniture:hover .dropdown2{
+    display: none;
+  }
   .header{
     padding: 0 20px;
     font-size: 15px;
@@ -944,6 +956,12 @@
   .grocery, .phone, .fashion, .electronics, .furniture, .appliances, .travel, .toy, .wheelers{
     width: 100%;
   }
+  .fashion i,.electronics i,.furniture i{
+    display: none;
+  }
+  .fashion:hover .dropdown1,.electronics:hover .dropdown2,.furniture:hover .dropdown2{
+    display: none;
+  }
   /* bar start */
   .bar{
     display: block;
@@ -1058,6 +1076,7 @@
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px){
+  
   .logo{
     width: 19%;
   }
@@ -1069,13 +1088,7 @@
     padding: 0 20px;
   }
   .header2{
-    flex-wrap: wrap;
     margin: 0 0;
-  }
-  .div1{
-    width: 100%;
-    column-count: 9;
-    margin: 20px 0;
   }
   .div2{
     width: 100%;

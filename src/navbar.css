@@ -1,0 +1,18 @@
+.categories-up{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    font-weight: 600;
+    box-shadow: 0 0 3px 5px gainsboro;
+    gap: 50px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+    
+}
+.categories-up1{
+    width: auto;
+}
+.categories-up::-webkit-scrollbar {
+    display: none;
+}

@@ -1,29 +1,26 @@
-import React from 'react'
+import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import './kurti.css';
-// kurti-jsx
-import { data } from './kurti-jsx/kurti'
+import { data } from './kurti-jsx/kurti.jsx';
 import Footer from '../footer';
 import Navbar from '../navbar';
-
 
 export default function Kurti() {
   return (
     <div>
       <Navbar/>
-      
       <div className='left-right'>
         <div className='leftside'>
           <div className='filter0'>
             <h2>Filter</h2>
             <div className='filter'>
               <h5>CATEGORIES</h5>
-              <p>Clothing and Accessorie...</p>
-              <p>Kurtas, Ethnic Sets and ....</p>
+              <p>Clothing and Accessories</p>
+              <p>Kurtas, Ethnic Sets and more</p>
               <h5>Kurtas</h5>
               <p>Men's Kurtas</p>
               <p>Kid's Kurtas</p>
@@ -31,54 +28,21 @@ export default function Kurti() {
             </div>
             <div className='brand'>
               <h5>BRAND</h5>
-              <i class="fa-solid fa-magnifying-glass"></i><input type='search' placeholder='Search Brand' className='search2'></input>
-              {/* <Form>
-              <input type="checkbox">W</input>
-              <input type='radio'>BIBA</input>
-              <input type='checkbox'>Aurelia</input>
-              <input type='checkbox'>Indo Era</input>
-              </Form> */}
+              <i className="fa-solid fa-magnifying-glass"></i>
+              <input type='search' placeholder='Search Brand' className='search2'></input>
             </div>
-            {/* <div className='gender'>
-              <h5>GENDER</h5>
-              <input type='checkbox'>Men</input>
-              <input type='checkbox'>Women</input>
-              <input type='checkbox'>Girls</input>
-            </div> */}
-            {/* <div className='dis'>
-              <h5>DISCOUNT</h5>
-              <input type='checkbox'>30% or more</input>
-              <input type='checkbox'>40% or more</input>
-              <input type='checkbox'>50% or more</input>
-              <input type='checkbox'>60% or more</input>
-              <input type='checkbox'>70% or more</input>
-            </div> */}
-            {/* <div className='size'>
-              <h5>Size</h5>
-              <input type='checkbox'>3XS</input>
-              <input type='checkbox'>2XS</input>
-              <input type='checkbox'>XS</input>
-              <input type='checkbox'>S</input>
-              <input type='checkbox'>M</input>
-              <input type='checkbox'>L</input>
-              <input type='checkbox'>XL</input>
-              <input type='checkbox'>X</input>
-            </div> */}
-
           </div>
-
         </div>
         <div className='rightside'>
           <Container>
             <Row>
-              {data.map((v, i) => {
+              {data.map((v) => {
                 return (
-                  <Kurtipro product={v} />
+                  <Kurtipro key={v.title} product={v} />
                 )
               })}
             </Row>
           </Container>
-
         </div>
       </div>
       <Footer />
@@ -86,27 +50,21 @@ export default function Kurti() {
   )
 }
 
-function Kurtipro(kurta) {
+function Kurtipro({ product }) {
   return (
     <div className='mb-4 col-lg-3'>
       <Card style={{ width: '17rem' }}>
-        <Card.Img variant="top" src={kurta.product.image} height={300} />
+        <Card.Img variant="top" src={product.image} height={300} />
         <Card.Body>
-          <Card.Title>{kurta.product.title}</Card.Title>
-          <Card.Text>
-            {kurta.product.discription}
-          </Card.Text>
-          <Card.Text>
-            {kurta.product.size}
-          </Card.Text>
-          <Card.Text>
-            {kurta.product.price}
-          </Card.Text>
-          <Button variant="primary" className='button-cart'>{kurta.product.cart}</Button>
+          <Card.Title>{product.title}</Card.Title>
+          <Card.Text>{product.description}</Card.Text>
+          <Card.Text>{product.size}</Card.Text>
+          <Card.Text>{product.price}</Card.Text>
+          <Button variant="primary" className='button-cart'>{product.cart}</Button>
         </Card.Body>
       </Card>
     </div>
   )
 }
-export {Kurtipro};
 
+export { Kurtipro };

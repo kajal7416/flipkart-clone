@@ -1,82 +1,78 @@
-export let data=[
-    {   "image": '../image-kurti/kurti1.jpg',
-        "title": "SEAKART",
-        "price": "Price: ₹ 140",
-        "size": "Size: S,M,L,XL,XXL",
-        "discription": "Women Printed Viscose...",
-        "cart": "ADD TO CART"
 
+export let data = [
+    {   
+        "image": "/flipkart/public/image-kurti/kurti1.jpg",
+        "title": "Anarkali Kurta",
+        "price": "Price: ₹ 899",
+        "size": "Size: S,M,L,XL,XXL",
+        "description": "Georgette Anarkali Kurta Dupatta Set",
+        "cart": "ADD TO CART"
     },
     {
-        "image": '../image-kurti/kurti2.jpg',
-        "title": "ChARVI CREACTION",
+        "image": '/image-kurti/kurti2.jpg',
+        "title": "CHARVI CREATION",
         "price": "Price: ₹ 419",
         "size": "Size: S,M,L,XL,XXL",
-        "discription": "Women Printed Viscose...",
+        "description": "Women Printed Viscose...",
         "cart": "ADD TO CART"
-
     },
     {
-        "image": '../image-kurti/kurti3.jpg',
+        "image": '/image-kurti/kurti3.jpg',
         "title": "MADHURAM",
         "price": "Price: ₹ 1,399",
         "size": "Size: S,M,L,XL,XXL",
-        "discription": "Women Printed Viscose...",
+        "description": "Women Printed Viscose...",
         "cart": "ADD TO CART"
-
     },
     {
-        "image": '../image-kurti/kurti4.jpg',
+        "image": '/image-kurti/kurti4.jpg',
         "title": "SABHI",
         "price": "Price: ₹ 379",
         "size": "Size: S,M,L,XL,XXL",
-        "discription": "Women Printed Viscose...",
+        "description": "Women Printed Viscose...",
         "cart": "ADD TO CART"
-
     },
-    {   "image": '../image-kurti/kurti5.jpg',
+    {
+        "image": '/image-kurti/kurti5.jpg',
         "title": "KRISKA",
         "price": "Price: ₹ 349",
         "size": "Size: S,M,L,XL,XXL",
-        "discription": "Women Printed Viscose...",
+        "description": "Women Printed Viscose...",
         "cart": "ADD TO CART"
-
     },
     {
-        "image": '../image-kurti/kurti6.jpg',
+        "image": '/image-kurti/kurti6.jpg',
         "title": "RAMRATAN",
         "price": "Price: ₹ 279",
         "size": "Size: S,M,L,XL,XXL",
-        "discription": "Women Printed Viscose...",
+        "description": "Women Printed Viscose...",
         "cart": "ADD TO CART"
-
     },
     {
-        "image": '../image-kurti/kurti8.jpg',
+        "image": '/image-kurti/kurti8.jpg',
         "title": "NOCIKA",
         "price": "Price: ₹ 399",
         "size": "Size: S,M,L,XL,XXL",
-        "discription": "Women Printed Viscose...",
+        "description": "Women Printed Viscose...",
         "cart": "ADD TO CART"
-
     },
     {
-        "image": '../image-kurti/kurti9.jpg',
+        "image": '/image-kurti/kurti9.jpg',
         "title": "RONAK FASHION",
         "price": "Price: ₹ 562",
         "size": "Size: S,M,L,XL,XXL",
-        "discription": "Women Printed Viscose...",
+        "description": "Women Printed Viscose...",
         "cart": "ADD TO CART"
-
     }
-]
+];
+
 // mobile
-export let mobile=[
+export let mobile = [
     {   "image": '../mobile-img/mobile1.jpg',
         "title": "realme 12x 5G (Twilight Purple, 128GB)",
         "price": "Price: ₹ 12,999",
         "discription": "Women Printed Viscose...",
-        "cart": "ADD TO CART"
+        "cart": "ADD TO CART",
 
     },
     {

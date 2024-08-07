@@ -9,7 +9,7 @@ export let data = [
         "cart": "ADD TO CART"
     },
     {
-        "image": '/image-kurti/kurti2.jpg',
+        "image": './image-kurti/kurti2.jpg',
         "title": "CHARVI CREATION",
         "price": "Price: ₹ 419",
         "size": "Size: S,M,L,XL,XXL",

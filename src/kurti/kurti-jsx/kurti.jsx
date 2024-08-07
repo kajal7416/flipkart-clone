@@ -1,5 +1,5 @@
 export let data=[
-    {   "image": '../image-kurti/kurti1.jpg',
+    {   "image": './image-kurti/kurti1.jpg',
         "title": "SEAKART",
         "price": "Price: ₹ 140",
         "size": "Size: S,M,L,XL,XXL",
